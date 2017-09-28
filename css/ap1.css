@@ -1,0 +1,51 @@
+html {
+    background-color: gainsboro;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 90%;
+    height: 100%;
+    margin: 0em auto;
+}
+
+.container {
+    position: relative;
+    width: 30em;
+    min-height: 20em;
+    padding-bottom: 1em;
+    border: 3px solid black;
+    background-color: whitesmoke;
+    margin: 4em auto;
+}
+
+.list {
+    /*#padding: 1em;*/
+    margin-bottom: 3em;
+    position: relative;
+    /*background-color: red;*/
+    top: 3em;
+    left: 0;
+    right: 0;
+}
+
+.control {
+    padding: 1em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#addBtn {
+}
+
+#addTxt {
+    width: calc(100% - 12.2em );
+    float: right;
+}
+
+.done {
+    text-decoration: line-through;
+}
